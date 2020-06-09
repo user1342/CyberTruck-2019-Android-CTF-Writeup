@@ -10,11 +10,7 @@ This is a writeup for the [Now Secure](https://www.nowsecure.com/) Android rever
 </p>
 
 <br>
-
 <img align="right" width="200" src="/images/application.png">
-
-<br>
-
 
 You can find the CTF, and all resources for it, on [GitHub](https://github.com/nowsecure/cybertruckchallenge19). Only continue if you're not interested in completing the CTF yourself and you want to hear me talk about some cool techniques.
 
