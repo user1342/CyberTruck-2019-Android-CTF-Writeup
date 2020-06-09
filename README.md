@@ -188,7 +188,7 @@ We then need to load the native library into [Ghidra](https://ghidra-sre.org/Che
 
 In this challenge we first need to locate the ```Java_org_nowsecure_cybertruck_MainActivity_init``` method in the native library in Ghidra. I did this by searching for the ```"KEYLESS CRYPTO [3] - Unlocking carID = 3"``` string.
 
-In Ghidra using both the **Decompiled** view and the **Function Graph** view will help us in reversing this code. After viewing the ```Java_org_nowsecure_cybertruck_MainActivity_init``` function in either of these views we can see that we have a while look doing a heap of logic on several of the registers. The main part of this is where we can see the ARM instruction ```eor w10 ,w10 ,w11```. This XORs the values in the general purpose registers 10 and 11 and stores their XORd result in register 10. We want to get access to the XORd value of these registers.
+In Ghidra using both the **Decompiled** view and the **Function Graph** view will help us in reversing this code. After viewing the ```Java_org_nowsecure_cybertruck_MainActivity_init``` function in either of these views we can see that we have a while loop doing a heap of logic on several of the registers. The main part of this is where we can see the ARM instruction ```eor w10 ,w10 ,w11```. This XORs the values in the general purpose registers 10 and 11 and stores their XORd result in register 10. We want to get access to the XORd value of these registers.
 
 To do this we're going to use the Frida ```Interceptor.attach```. Unlike when we've used ```Java.use``` in this past the code inside of our [interceptor](https://frida.re/docs/javascript-api/#interceptor) will only be called when that section of the native code is run. For us this will be when the "Unlock" button is selected.
 
