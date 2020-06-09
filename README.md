@@ -4,10 +4,11 @@ This is a writeup for the [Now Secure](https://www.nowsecure.com/) Android rever
 
 ... It has nothing to do with the Tesla CyberTruck.
 
-
 <p align="center">
-  <img src="https://media1.giphy.com/media/QWjyvdpMDYKbOFLdIv/giphy.gif?cid=ecf05e4789df802731724ceecdf469de65daf24b4de39c43&rid=giphy.gif" width="700" height="250"/>
+    <img width=100% src="https://media1.giphy.com/media/QWjyvdpMDYKbOFLdIv/giphy.gif?cid=ecf05e4789df802731724ceecdf469de65daf24b4de39c43&rid=giphy.gif">
+  </a>
 </p>
+
 <br>
 
 <img align="right" width="200" src="/images/application.png">
