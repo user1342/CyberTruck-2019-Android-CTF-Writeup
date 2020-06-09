@@ -120,7 +120,7 @@ After finding the applications ```assets``` folder we find the FLAG for this cha
 
 **FLAG**: ```d474_47_r357_mu57_pR073C73D700!!```
 
-# Challenge 2.2
+## Challenge 2.2
 **Challenge**: *Static Analysis*: There is a token generated at runtime to unlock the carid=2. Can you get it? (flag must be summitted in hex all lowercase).
 
 Remaining in ```a.java``` we can see a very similar method to the method used to generate the dynamic key in challenge 1.2. This time this method has been obfuscated and is also called ```a```.
