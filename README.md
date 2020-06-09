@@ -1,4 +1,4 @@
-# Cyber Truck 2019 Writeup 🚗
+# CyberTruck2019 Android CTF Writeup🚗
 
 This is a writeup for the [Now Secure](https://www.nowsecure.com/) Android reverse engineering CTF based on analyzing a car keyless application.
 
